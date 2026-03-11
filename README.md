@@ -6,6 +6,10 @@ It supports multiple apps. Clicking the tray icon restores the last app you hid,
 
 It is useful when you want to quickly hide a PowerShell window or another app without closing it.
 
+OmniCurtain hides apps without closing them, so your workflow stays intact, but hidden apps still use system resources while they remain open.
+
+![OmniCurtain demo](demo.gif)
+
 ## Requirements
 
 - Windows
