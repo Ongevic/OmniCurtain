@@ -1,6 +1,8 @@
 # OmniCurtain
 
-OmniCurtain is a small AutoHotkey script for Windows that hides the currently active window and lets you restore it from the system tray.
+OmniCurtain is a small AutoHotkey script for Windows that hides the currently active window and lets you restore one or more hidden apps from the system tray.
+
+It supports multiple apps. Clicking the tray icon restores the last app you hid, so apps are restored in reverse order of minimization.
 
 It is useful when you want to quickly hide a PowerShell window or another app without closing it.
 
@@ -22,16 +24,17 @@ This script uses AutoHotkey v1 syntax, so Windows users should install a v1-comp
 2. Double-click `omnicurtain.ahk` to start the script.
 3. Open the app you want to hide.
 4. Press `Win + Ctrl + Down` to hide the active window to the tray.
-5. Double-click the tray icon menu entry to restore the hidden window.
+5. Repeat on other apps if you want to hide multiple windows.
+6. Double-click the tray icon to restore the most recently hidden window, or use the tray menu to restore a specific hidden app.
 
 This is especially handy for PowerShell, terminal windows, and other apps you want out of sight without closing them.
 
 ## What it does
 
 - Hides the currently active window
-- Stores that window so it can be restored later
-- Adds a tray menu item named `Restore Window`
-- Restores the hidden window when selected from the tray
+- Supports multiple hidden apps at the same time
+- Restores the last hidden app first when you click the tray icon
+- Lists hidden windows in the tray menu so you can restore a specific one
 
 ## Files
 
