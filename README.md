@@ -42,3 +42,5 @@ This is especially handy for PowerShell, terminal windows, and other apps you wa
 ## License
 
 Released under the MIT License. See [LICENSE](LICENSE).
+
+A star or any appreciation is always welcome.
