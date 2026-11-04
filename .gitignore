@@ -1,0 +1,12 @@
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor / temporary files
+*.tmp
+*.bak
+*~
+
+# Compiled AutoHotkey scripts
+*.exe
